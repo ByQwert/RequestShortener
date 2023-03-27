@@ -20,8 +20,7 @@ import java.util.ArrayList;
 import javax.swing.table.TableModel;
 
 // https://raw.githubusercontent.com/PortSwigger/burp-extensions-montoya-api-examples/main/customrequesteditortab/src/main/java/example/customrequesteditortab/MyExtensionProvidedHttpRequestEditor.java
-class MyExtensionProvidedHttpRequestEditor implements ExtensionProvidedHttpRequestEditor
-{
+class MyExtensionProvidedHttpRequestEditor implements ExtensionProvidedHttpRequestEditor {
     private final HttpRequestEditor requestEditor;
     private HttpRequestResponse requestResponse;
     private final MontoyaApi api;
@@ -100,26 +99,22 @@ class MyExtensionProvidedHttpRequestEditor implements ExtensionProvidedHttpReque
     }
 
     @Override
-    public String caption()
-    {
+    public String caption() {
         return "Shortened";
     }
 
     @Override
-    public Component uiComponent()
-    {
+    public Component uiComponent() {
         return requestEditor.uiComponent();
     }
 
     @Override
-    public Selection selectedData()
-    {
+    public Selection selectedData() {
         return requestEditor.selection().isPresent() ? requestEditor.selection().get() : null;
     }
 
     @Override
-    public boolean isModified()
-    {
+    public boolean isModified() {
         return requestEditor.isModified();
     }
 }
