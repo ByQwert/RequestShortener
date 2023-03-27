@@ -16,9 +16,9 @@ Inspired by [.NET Beautifier](https://github.com/PortSwigger/dotnet-beautifier).
 ![Updated request](docs/images/updated_request.png)
 
 # References
-[Custom Request Editor Tab Example Extension](https://github.com/PortSwigger/burp-extensions-montoya-api-examples/tree/main/customrequesteditortab)
-[Developing and Debugging Java Burp Extensions with Visual Studio Code](https://parsiya.net/blog/2019-12-02-developing-and-debugging-java-burp-extensions-with-visual-studio-code/)
-[Java Swing layouts](https://www.youtube.com/watch?v=19xwjgsC_58)
+* [Custom Request Editor Tab Example Extension](https://github.com/PortSwigger/burp-extensions-montoya-api-examples/tree/main/customrequesteditortab)
+* [Developing and Debugging Java Burp Extensions with Visual Studio Code](https://parsiya.net/blog/2019-12-02-developing-and-debugging-java-burp-extensions-with-visual-studio-code/)
+* [Java Swing layouts](https://www.youtube.com/watch?v=19xwjgsC_58)
 
 # TODO
 * JSON support
